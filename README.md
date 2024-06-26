@@ -10,12 +10,10 @@ There is no config for this mod. It comes enabled by default, and if you want to
 ## Preview (Credit to [im-henri](https://github.com/im-henri/))
 ![Preview](https://github.com/im-henri/QonsistentSaberColors/blob/master/Animation.gif)
 
-## Dependencies
-- BSIPA: v4.2.2+
-- SiraUtil v3.0.5+
+## Manual Installation
+Requires BSIPA and SiraUtil. Make sure you install these with your mod installer.
 
-## Roadpath
-- Realtime color updates when editing color schemes
+Download the MenuSaberColors .zip file from the [latest release](github.com/qqrz997/MenuSaberColors/releases/latest) and drop the contents of it into the folder of your modded Beat Saber install.
 
 ## Bugs? Feature Request? Suggestion?
 You can either open an issue here on GitHub, or open your own pull request if you want to develop it yourself! You can also reach me on Discord, **Exomanz#8083**
