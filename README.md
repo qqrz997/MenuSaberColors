@@ -14,6 +14,3 @@ There is no config for this mod. It comes enabled by default, and if you want to
 Requires BSIPA and SiraUtil. Make sure you install these with your mod installer.
 
 Download the MenuSaberColors .zip file from the [latest release](github.com/qqrz997/MenuSaberColors/releases/latest) and drop the contents of it into the folder of your modded Beat Saber install.
-
-## Bugs? Feature Request? Suggestion?
-You can either open an issue here on GitHub, or open your own pull request if you want to develop it yourself! You can also reach me on Discord, **Exomanz#8083**
