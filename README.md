@@ -1,5 +1,6 @@
 # MenuSaberColors
 A Quest mod that allowed for your menu pointers to be the same colors as your sabers has been ported to PC!
+Thanks to [Exomanz](https://github.com/Exomanz/MenuSaberColors) for allowing the continued support of the mod.
 
 ## Overview - What exactly does this mod do?
 Put simply, this mod just allows for your menu pointers to be the same colors as your in-level sabers!
