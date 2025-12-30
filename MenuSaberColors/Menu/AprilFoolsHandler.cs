@@ -8,9 +8,13 @@ namespace MenuSaberColors.Menu
     internal class AprilFoolsHandler : IInitializable, ITickable
     {
         private readonly MenuPointerColorManager menuSaberColorManager;
+        private readonly TimeHelper timeHelper;
 
-        private AprilFoolsHandler(MenuPointerColorManager menuSaberColorManager) =>
+        private AprilFoolsHandler(MenuPointerColorManager menuSaberColorManager, TimeHelper timeHelper)
+        {
             this.menuSaberColorManager = menuSaberColorManager;
+            this.timeHelper = timeHelper;
+        }
 
         private readonly ColorScheme aprilFoolsColorScheme = new(
             colorSchemeId: "memory-only_menuSaberColors_aprilFoolsColorScheme",
@@ -18,8 +22,10 @@ namespace MenuSaberColors.Menu
             useNonLocalizedName: false,
             nonLocalizedName: "OWNED",
             isEditable: false,
+            overrideNotes: false,
             saberAColor: Color.black,
             saberBColor: Color.black,
+            overrideLights: false,
             environmentColor0: Color.black,
             environmentColor1: Color.black,
             environmentColorW: Color.black,
@@ -41,7 +47,7 @@ namespace MenuSaberColors.Menu
 
         public void Tick()
         {
-            var rainbowColor = HSBColor.ToColor(new HSBColor(Mathf.PingPong(TimeHelper.time * 0.5f, 1f), 1f, 1f));
+            var rainbowColor = HSBColor.ToColor(new HSBColor(Mathf.PingPong(timeHelper.Time * 0.5f, 1f), 1f, 1f));
 
             aprilFoolsColorScheme._saberAColor = rainbowColor;
             aprilFoolsColorScheme._saberBColor = rainbowColor;
